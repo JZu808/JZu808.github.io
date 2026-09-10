@@ -4,7 +4,7 @@ type: project
 image: img/Screenshot_10-9-2026_132839_mail.google.com.jpeg
 title: "Quick Build Project Selection Matrix"
 date: 2026-06
-published: false
+published: true
 labels:
   - HTML
   - Javascript
