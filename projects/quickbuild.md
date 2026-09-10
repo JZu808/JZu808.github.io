@@ -1,17 +1,18 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/Screenshot_10-9-2026_132839_mail.google.com.jpeg
 title: "Quick Build Project Selection Matrix"
-date: 2026
-published: true
+date: 2026-06
+published: false
 labels:
   - HTML
   - Javascript
+  - Project Management
 summary: "A scoring matrix tool I designed to be used by the Hawaii Department of Transportation to help organize and prioritize candidate locations that require immediate safety redesigns"
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="..img/Screenshot_10-9-2026_132839_mail.google.com.jpeg">
 
 The Quick Build Project Selection Matrix is currently a web-based tool I built from scratch in HTML and JavaScript to help prioritize candidate street-safety projects for the Hawaii Department of Transportation. Quick-build projects improve street safety using low-cost, easy-to-install materials, ideally costing $50,000 or less and takes less than a year to install. The challenge is deciding which locations to fund first when there are far more candidate sites than available resources, which can be easily organized using this tool.
 
