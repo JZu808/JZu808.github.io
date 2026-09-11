@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: ""
+title: "Smart Question!"
 # All dates must be YYYY-MM-DD format!
 date: 2026-09-10
 published: true
@@ -13,57 +13,35 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
----
-title: "Asking Questions the Smart Way"
-summary: "Why clear questions matter in software engineering, using a smart and a not-so-smart StackOverflow question as examples."
-date: 2026-09-10
-labels:
-  - Communication
-  - Software Engineering
-  - StackOverflow
----
-
----
-title: "Asking Questions the Smart Way"
-summary: "Why doing your homework first makes a better question, shown through a smart and a not-so-smart StackOverflow post."
-date: 2026-09-10
-labels:
-  - Communication
-  - Software Engineering
-  - StackOverflow
----
 
 ## Before You Ask
 
-The smartest part of a good question happens before you post it. In [*How To Ask Questions The Smart Way*](http://www.catb.org/esr/faqs/smart-questions.html), Eric Raymond says the people answering are mostly volunteers, and they can tell how much effort you put in. So do your homework first: search the web, read the manual, and try to solve the problem yourself. Then show that you did.
+Before you ask a question, Eric Raymond says you should do your homework first. That means searching the web, reading the manual, and trying to solve the problem yourself before posting. When you finally ask, show that you did these things so people know you put in effort. The people answering are volunteers, and they help those who help themselves.
 
-This matters because a vague question makes the reader guess. When you leave out details, they fill in the blanks with their own assumptions and end up solving the wrong problem. Doing your homework first, and showing it, keeps the answer aimed at your real question. The two posts below show both sides of this.
+## What is a Smart Question
+A smart question is one that gives the reader everything they need to help you. It has a clear title that names the actual problem, rather than a vague "help me." It describes the specific bugs and includes a small piece of code or an example that shows the issue. Being a polite also a big factor as people are unlikely to help people that have anger issues.
 
-## The Smart Question
+## Examples of a Smart Question
+A good example is a StackOverflow question titled [*Why does changing 0.1f to 0 slow down performance by 10x?*](https://stackoverflow.com/questions/9314534/why-does-changing-0-1f-to-0-slow-down-performance-by-10x). A developer had a C++ loop doing math, and when he changed one constant from `0.1f` to `0`, the code ran about ten times slower, which made no sense. He posted his full code, gave his real timing numbers, and asked one clear question: why? 
 
-A good example is a StackOverflow question titled [*Why is processing a sorted array faster than processing an unsorted array?*](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array). The developer noticed that a simple C++ loop ran about six times faster when the array was sorted first, even though sorting shouldn't change the result. He posted the full, runnable code, gave his exact timing numbers, and asked one clear question: why?
+No overthinking, just straightforward and polite.
 
-This question does everything Raymond asks for. The title names the exact problem. The code is small enough to read but complete enough to run, so anyone can see the behavior instead of guessing. The timing numbers are real facts, not "it's slow." //And it stays calm and focused, with no panic or urgency.
+## Examples of an Not-so-Smart Question
+An example of a Not-so-Smart Question would most likely break the rules of moderated forum websites such as Reddit or StackOverflow and would give you weird looks in real life.
 
-Because the question gave everything needed, the community went straight to answering. The top answer explains **branch prediction**: the CPU guesses which way an `if` will go so it can work ahead. On sorted data that guess is almost always right, so the loop is fast. On random data it's often wrong, which slows things down. The answer became one of the most upvoted on the whole site and still helps people today.
+It could look like: 
+Title: python not working PLS HELP fast!!!
 
-That is help that is both fast and useful. There was no back-and-forth, because nothing was missing. The good question made the good answer possible.
+Body: "hey so im doing a data project and my python script just wont run anymore. it worked last week i didnt even change anything. i keep getting a error. someone please just tell me how to fix it, i have a deadline tonight and im freaking out. thanks!!!"
 
-## The Not-So-Smart Question
+This is wrong because it is very vague, shows that they did not try anything to fix it, and is not in the ideal, calm state of mind. This will get downvoted to the underworld and make people mad.
 
-Bad questions usually get deleted fast, so they are hard to link to. So, as the assignment allows, here is a made-up example based on the mistakes StackOverflow warns about in its [How do I ask a good question?](https://stackoverflow.com/help/how-to-ask) guide:
+## Conclusion
+The biggest difference between these two questions is the homework. The developer with the smart question, showed his code and his numbers, and specific methods he used, which got him clear and respectful answers. The not-so-great question showed nothing and got only downvotes and requests for basics. What I learned is that writing a good question is really about respecting other people's time, and doing that well often reveals the answer before anyone even replies. Communication is one of the most important software engineering skills to develop, and asking questions the “smart way” is one of the most important communication skills of all for a software engineer.
 
-> **Title:** PLEASE HELP my code doesnt work!!! URGENT
->
-> **Body:** "i am making a website and my javascript is not working. it was fine yesterday and now it doesnt. can someone tell me whats wrong?? i need this ASAP its due tomorrow. thanks"
 
-This breaks almost every rule. Nothing shows any homework. The title describes panic, not the problem. There is no code, so nothing can be tested. "Doesn't work" gives no error message and no details. And "URGENT" tries to push the asker's deadline onto volunteers, which Raymond says gets a question ignored, not answered faster.
+claude.ai was used to organize thoughts and check for grammar.
 
-A question like this gets slow, useless help. People ask for the missing basics, leave replies like "works on my machine," or just downvote and close it. Instead of an answer, the asker gets a list of follow-up questions. The "urgent" tag ends up causing the slowest result of all.
-
-## What I Learned
-
-The biggest difference between these two is the homework. One person did it and showed it; the other did none. That one thing decides whether answering is easy or a chore. "Doesn't work" is the mistake to avoid, while clear details let someone help right away. I also learned that writing a good question can solve the problem on its own, since explaining it clearly often reveals the answer. In the end, asking clearly is really about respecting other people's time, and it's one of the easiest ways to become a better engineer.
 
 ## References
 
