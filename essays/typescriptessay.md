@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/TypescriptPlayground.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/TypescriptPlayground.png">
 
 ## First Impressions of TypeScript
 As an electrical engineering student, my coursework has taken me through several programming languages, mostly Python and C/C++. When I started ICS 314, I expected to be using a difficult language like Java. I'd used Java back in ICS 111 during my first year of community college, and it had been a hard language for me at the time, so I was extremely afraid about facing it again. As it turned out, we were learning something new instead: TypeScript.
