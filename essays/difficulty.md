@@ -4,7 +4,7 @@ type: essay
 title: ""
 # All dates must be YYYY-MM-DD format!
 date: 2026-09-10
-published: false
+published: true
 labels:
   - Engineering
 ---
