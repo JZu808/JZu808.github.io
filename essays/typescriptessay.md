@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Typescript or Python?"
+title: "Typescript is Awesome?"
 # All dates must be YYYY-MM-DD format!
 date: 2026-09-10
 published: true
