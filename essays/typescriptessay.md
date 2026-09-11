@@ -4,7 +4,7 @@ type: essay
 title: "Typescript or Python?"
 # All dates must be YYYY-MM-DD format!
 date: 2026-09-10
-published: false
+published: true
 labels:
   - Typescript
   - Software Engineering
