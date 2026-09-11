@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: ""
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2026-09-10
 published: true
 labels:
   - Questions
@@ -13,87 +13,61 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+---
+title: "Asking Questions the Smart Way"
+summary: "Why clear questions matter in software engineering, using a smart and a not-so-smart StackOverflow question as examples."
+date: 2026-09-10
+labels:
+  - Communication
+  - Software Engineering
+  - StackOverflow
+---
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+---
+title: "Asking Questions the Smart Way"
+summary: "Why doing your homework first makes a better question, shown through a smart and a not-so-smart StackOverflow post."
+date: 2026-09-10
+labels:
+  - Communication
+  - Software Engineering
+  - StackOverflow
+---
 
-## What’s a smart question?
+## Before You Ask
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+The smartest part of a good question happens before you post it. In [*How To Ask Questions The Smart Way*](http://www.catb.org/esr/faqs/smart-questions.html), Eric Raymond says the people answering are mostly volunteers, and they can tell how much effort you put in. So do your homework first: search the web, read the manual, and try to solve the problem yourself. Then show that you did.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+This matters because a vague question makes the reader guess. When you leave out details, they fill in the blanks with their own assumptions and end up solving the wrong problem. Doing your homework first, and showing it, keeps the answer aimed at your real question. The two posts below show both sides of this.
 
-```
-Q: python date of the previous month
+## The Smart Question
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+A good example is a StackOverflow question titled [*Why is processing a sorted array faster than processing an unsorted array?*](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array). The developer noticed that a simple C++ loop ran about six times faster when the array was sorted first, even though sorting shouldn't change the result. He posted the full, runnable code, gave his exact timing numbers, and asked one clear question: why?
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+This question does everything Raymond asks for. The title names the exact problem. The code is small enough to read but complete enough to run, so anyone can see the behavior instead of guessing. The timing numbers are real facts, not "it's slow." //And it stays calm and focused, with no panic or urgency.
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+Because the question gave everything needed, the community went straight to answering. The top answer explains **branch prediction**: the CPU guesses which way an `if` will go so it can work ahead. On sorted data that guess is almost always right, so the loop is fast. On random data it's often wrong, which slows things down. The answer became one of the most upvoted on the whole site and still helps people today.
 
-I have solved this trouble in bash with:
+That is help that is both fast and useful. There was no back-and-forth, because nothing was missing. The good question made the good answer possible.
 
-echo $(date -d"3 month ago" "+%G%m%d")
+## The Not-So-Smart Question
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
+Bad questions usually get deleted fast, so they are hard to link to. So, as the assignment allows, here is a made-up example based on the mistakes StackOverflow warns about in its [How do I ask a good question?](https://stackoverflow.com/help/how-to-ask) guide:
 
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
+> **Title:** PLEASE HELP my code doesnt work!!! URGENT
+>
+> **Body:** "i am making a website and my javascript is not working. it was fine yesterday and now it doesnt. can someone tell me whats wrong?? i need this ASAP its due tomorrow. thanks"
 
-Thanks for your help!
-```
+This breaks almost every rule. Nothing shows any homework. The title describes panic, not the problem. There is no code, so nothing can be tested. "Doesn't work" gives no error message and no details. And "URGENT" tries to push the asker's deadline onto volunteers, which Raymond says gets a question ignored, not answered faster.
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+A question like this gets slow, useless help. People ask for the missing basics, leave replies like "works on my machine," or just downvote and close it. Instead of an answer, the asker gets a list of follow-up questions. The "urgent" tag ends up causing the slowest result of all.
 
-```
-A: datetime and the datetime.timedelta classes are your friend.
+## What I Learned
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+The biggest difference between these two is the homework. One person did it and showed it; the other did none. That one thing decides whether answering is easy or a chore. "Doesn't work" is the mistake to avoid, while clear details let someone help right away. I also learned that writing a good question can solve the problem on its own, since explaining it clearly often reveals the answer. In the end, asking clearly is really about respecting other people's time, and it's one of the easiest ways to become a better engineer.
 
-Like this:
+## References
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+- Eric S. Raymond, [*How To Ask Questions The Smart Way*](http://www.catb.org/esr/faqs/smart-questions.html)
+- StackOverflow #11227809, [*Why is processing a sorted array faster than processing an unsorted array?*](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array)
+- StackOverflow, [*How do I ask a good question?*](https://stackoverflow.com/help/how-to-ask)
+- StackOverflow, [*How to create a Minimal, Reproducible Example*](https://stackoverflow.com/help/minimal-reproducible-example)
