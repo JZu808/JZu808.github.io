@@ -19,4 +19,4 @@ This semester, we rebuilt the app to make it faster and easier to use. We reorga
 
 We also upgraded the AI model that identifies parts of the embryo, improving its accuracy from around 80% to over 99%. A big part of this was cleaning up and preparing the training images so the model could learn from them properly. Finally, we started exploring how 3D LiDAR scanning could be used to detect unexploded ordnance in Hawaiian terrain, setting up a foundation for future teams.
 
-Read more from our final report: 
+<a href="../pdf/embryo-final-report.pdf" target="_blank">Read the full report (PDF)</a>
