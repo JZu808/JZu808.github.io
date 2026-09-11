@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Screenshot_10-9-2026_132839_mail.google.com.jpeg
+image: img/Screenshot_10-9-2026_14821_docs.google.com.jpeg
 title: "ECE x96 MicroVIP Spring 2026"
 date: 2026
 published: true
