@@ -2,15 +2,14 @@
 layout: project
 type: project
 image: img/vacay/vacay-square.png
-title: "Vacay"
+title: "Connect U"
 date: 2015
-published: false
+published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+  - Data Structures
+  - Algorithms
+  - C++
+summary: "A text-based social media app semester long project for ECE 367. The app contains features such as creating and liking posts, creating and liking comments and managing connections."
 ---
 
 <img class="img-fluid" src="../img/vacay/vacay-home-page.png">
