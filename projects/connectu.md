@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: ../img/ConnectU.png
+image: img/ConnectU.png
 title: "Connect U"
 date: 2015
 published: true
