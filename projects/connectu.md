@@ -1,14 +1,15 @@
 ---
 layout: project
 type: project
-image: img/ConnectU.png
+image: img/illustration-of-raster-binary-tree-symbol-editable-icon-vector.jpg
 title: "Connect U"
-date: 2015
+date: 2026
 published: true
 labels:
   - Data Structures
   - Algorithms
   - C++
+  - ECE 367
 summary: "A text-based social media app semester long project for ECE 367. The app contains features such as creating and liking posts, creating and liking comments and managing connections."
 ---
 
