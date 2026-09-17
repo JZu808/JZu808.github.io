@@ -6,8 +6,7 @@ title: "Wag Kang Tanga, Magtanong ng Mas Maganda"
 date: 2026-09-10
 published: true
 labels:
-  - Questions
-  - Answers
+  - Asking Questions
   - StackOverflow
 ---
 
