@@ -40,28 +40,46 @@
       ]
     }
   ],
-  "work": [
+    "work": [
     {
       "company": "Hawaii Department of Transportation",
       "position": "Student Intern II",
       "website": "",
       "startDate": "2026-05",
       "endDate": "2026-08",
-      "summary": "Researched school connectivity, street safety and clean fuel standards.",
+      "summary": "Energy and Security Outreach Office. Supported quick-build street safety work and shoreline resilience research.",
       "highlights": [
-        "ArcGIS, Microsoft 365, Excel, Outlook, Word"
+        "Contributed to a Quick Build Guidebook for HDOT, drafting report sections and policy-comparison content aimed at both engineers and the public.",
+        "Built a web-based scoring matrix tool concept using HTML and JavaScript that ranks quick-build projects by weighted factors like crash history, cost, and school proximity.",
+        "Researched methods to recreate nearshore beach conditions in aquarium setups, supporting ongoing study of the Kalaeloa hybrid reef built to reduce wave energy and protect Oahu shorelines."
       ]
     },
     {
       "company": "Koromo Katsu and Curry Bistro",
-      "position": "Cook",
+      "position": "Prep Cook/Cook",
       "website": "https://www.koromohawaii.com/",
       "startDate": "2025-02",
       "endDate": "2026-05",
-      "summary": "Prepared and cooked various katsu which would be served with high quality to dining customers.",
+      "summary": "Prepared and cooked made-to-order katsu with an emphasis on quality and presentation.",
       "highlights": [
-        "Katsu"
+        "Prepared and cooked various katsu made-to-order using deep-fryers, pulling each at the correct temperature and plating with clean presentation.",
+        "Maintained a clean workstation and followed safety guidelines to prevent hazards and food contamination.",
+        "Kept a safe work environment and smooth flow of service through clear communication."
+      ]
+    },
+    {
+      "company": "Panda Express",
+      "position": "Kitchen Help/Cook",
+      "website": "",
+      "startDate": "2021-04",
+      "endDate": "2024-11",
+      "summary": "Cooked high-volume made-to-order food in a fast-paced kitchen.",
+      "highlights": [
+        "Prepared ingredients and cooked large quantities of food using a wok and grill in a fast-paced environment, maintaining food quality and adapting to the speed of service.",
+        "Followed safety procedures by maintaining a clean workstation, storing ingredients in correct areas, and cooking food to safe temperatures.",
+        "Communicated with team members to keep the flow of service running smoothly."
       ]
     }
   ]
 }
+  
