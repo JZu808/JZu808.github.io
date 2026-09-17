@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Smart Question!"
+title: "You're Stupid. Stop that."
 # All dates must be YYYY-MM-DD format!
 date: 2026-09-10
 published: true
