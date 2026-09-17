@@ -17,18 +17,29 @@
     { "name": "Computers" },
     { "name": "Robotics" },
     { "name": "Drawing" },
-    { "name": "Guitar" }
+    { "name": "Guitar" },
+    { "name": "Music Production"}
   ],
-  "skills": [
+    "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Javascript", "Python", "Typescript" ]
+      "name": "Programming",
+      "keywords": [ "Python", "C", "C++", "HTML", "JavaScript" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "Windows11", "Git/GitHub", "g++", "VS Code"]
+      "name": "Tools/OS",
+      "keywords": [ "Linux", "Git/GitHub", "VS Code" ]
+    },
+    {
+      "name": "Other",
+      "keywords": [ "Circuit Analysis", "Procreate" ]
     }
   ],
+  "languages": [
+    { "language": "English", "fluency": "Fluent" },
+    { "language": "Japanese", "fluency": "Novice" },
+    { "language": "Ilocano", "fluency": "Receptive Bilingual" }
+  ],
+
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
