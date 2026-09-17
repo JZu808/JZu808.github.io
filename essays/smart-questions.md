@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "You're Stupid. Stop that."
+title: "Wag Kang Tanga, Magtanong ng Mas Maganda"
 # All dates must be YYYY-MM-DD format!
 date: 2026-09-10
 published: true
@@ -17,6 +17,8 @@ labels:
 ## Before You Ask
 
 Before you ask a question, Eric Raymond says you should do your homework first. That means searching the web, reading the manual, and trying to solve the problem yourself before posting. When you finally ask, show that you did these things so people know you put in effort. The people answering are volunteers, and they help those who help themselves.
+
+The title of this essay is in a different language but before you ask me what it means, have you actually tried to do the research?
 
 ## What is a Smart Question
 A smart question is one that gives the reader everything they need to help you. It has a clear title that names the actual problem, rather than a vague "help me." It describes the specific bugs and includes a small piece of code or an example that shows the issue. Being a polite also a big factor as people are unlikely to help people that have anger issues.
