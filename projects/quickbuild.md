@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img\IMG_8455.jpg
+image: img\kalihi.jpg
 title: "Quick Build Project Selection Matrix"
 date: 2026-06
 published: true
