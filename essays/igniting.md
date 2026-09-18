@@ -10,8 +10,10 @@ labels:
 ---
 
 ## Why Engineering?
-I enjoy watching a lot of sci-fi shows and movies like Iron Man, Gundam, AKIRA and playing sci-fi video games like Call of Duty Black Ops 2, Titanfall, Metal Gear Rising and enjoyed seeing futuristic technology and devices being used in action. I chose to study engineering because I wanted to contribute to developing these futuristic devices and bring fantasy to reality.
 <img width="300px" class="rounded float-start pe-4" src="..\img\metal gear rising.jpg">
+
+I enjoy watching a lot of sci-fi shows and movies like Iron Man, Gundam, AKIRA and playing sci-fi video games like Call of Duty Black Ops 2, Titanfall, Metal Gear Rising and enjoyed seeing futuristic technology and devices being used in action. I chose to study engineering because I wanted to contribute to developing these futuristic devices and bring fantasy to reality.
+
 
 
 ## Engineering is not for the Weak
