@@ -10,13 +10,13 @@ labels:
   - nnUNet
   - Neural Network
   - Biomedical Engineering
-summary: "Rebuilt a Python app that uses AI to automatically measure embryo growth from microscopy videos, and trained a deep learning model to identify embryo regions with over 99% accuracy."
+summary: "Improved a Python app that uses AI to automatically measure embryo growth from videos, and trained a deep learning model to identify embryo regions with over 99% accuracy."
 ---
 
-Embryo Image Analysis is a Python application that automatically measures how embryos grow from time-lapse microscopy videos. My team built it for a fertility clinic to help embryologists track embryo development.
+The MicroVIP Embryo Image Analysis team developed Python application that automatically measures how embryos grow from time-lapse microscopy videos. My team built it for a fertility clinic to help embryologists track embryo development and assist patients with IVF treatments. Grading embryos is normally a subjective procedure done by real people. Using a AI to assist with grading, the grading is less subjective and reduces physical and financial burdens on the patient. 
 
-This semester, we rebuilt the app to make it faster and easier to use. We reorganized the code from one giant file into smaller, cleaner ones, which made the app run about 20% faster. We gave the interface a more modern look, added the ability to analyze several videos at once with a progress bar, and packaged everything into a standalone program the clinic could run on its own.
+In the Spring 2026 semester, we rebuilt and improved the app to make it faster and easier to use. We reorganized the code from one giant file into smaller, cleaner ones, which made the app run about 20% faster. We gave the interface a more modern look, added the ability to analyze several videos at once with a progress bar, and packaged everything into a standalone program the clinic could run on its own.
 
-We also upgraded the AI model that identifies parts of the embryo, improving its accuracy from around 80% to over 99%. A big part of this was cleaning up and preparing the training images so the model could learn from them properly. Finally, we started exploring how 3D LiDAR scanning could be used to detect unexploded ordnance in Hawaiian terrain, setting up a foundation for future teams.
+We also upgraded the AI model from ResNet-50 to nnUNet which would be used to identify the trophectoderm and the inncer cell mass of the embryo, improving its accuracy from around 80% to over 99%. A big part of this was cleaning up and preparing the training images so the model could learn from them properly. Finally, we started exploring how 3D LiDAR scanning could be used to detect unexploded ordnance in Hawaiian terrain, setting up a foundation for future teams.
 
 <a href="../projects/copy%20EEx96-Final%20Report-%5BEmbryo%20Analysis%20Team%5D-%5B%20Lumabao,%20Meissner,%20Siarot,%20Molina,%20Alvaran%5D%20commented.docx.pdf" target="_blank">Read the full report (PDF)</a>
