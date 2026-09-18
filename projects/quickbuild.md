@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Screenshot_10-9-2026_132839_mail.google.com.jpeg
+image: img\IMG_8455.jpg
 title: "Quick Build Project Selection Matrix"
 date: 2026-06
 published: true
