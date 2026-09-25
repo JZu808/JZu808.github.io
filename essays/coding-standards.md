@@ -14,7 +14,7 @@ labels:
 
 ## More than spaces and braces
 
-When most people hear "coding standards," they think of small stuff like how many spaces to indent or where the curly brace goes. A coding standard is really a set of rules for how code should be written, including which language features to use and which to avoid. ESLint is the tool that checks my code against those rules. After using it in VS Code, I think a good standard does more than keep code tidy. It steers you away from common mistakes and teaches you the language along the way.
+When most people hear "coding standards," they think of small stuff like how many spaces to indent or where the curly brace goes. A coding standard is a set of rules for how code should be written, including which language features to use and which to avoid. ESLint is the tool that checks my code against those rules. After using it in VS Code, I think a good standard does more than keep code tidy. It steers you away from common mistakes and teaches you the language along the way.
 
 ## What ESLint caught
 
