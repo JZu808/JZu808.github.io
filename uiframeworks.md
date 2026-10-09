@@ -130,4 +130,4 @@ Learning Bootstrap takes time, but it teaches you how teams build websites: agre
 
 ## AI Use
 
-I used Claude to help draft and organize this essay, including the code examples.
+I used Claude to help draft and organize this essay, and stylize the format.
