@@ -9,8 +9,9 @@ labels:
   - Software Engineering
   - Bootstrap
   - CSS
-image: /img/bootstrap-5.0-illustration.png
 ---
+
+<img class="img-fluid rounded mx-auto d-block" src="../img/bootstrap-5.0-illustration.png" alt="Bootstrap 5 illustration">
 
 ## The Navbar Problem
 
