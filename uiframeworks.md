@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Somebody Already Built Your Navbar"
+title: "The Navbar is Already Built"
 # All dates must be YYYY-MM-DD format!
 date: 2026-10-08
 published: true
